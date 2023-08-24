@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Riples02
+  m_Shader: {fileID: -6465566751694194690, guid: aeb50b4ab27d5f54bb795f40cd8be583, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_933c061adec14fc5b59970de68286bec:
+        m_Texture: {fileID: 2800000, guid: c2d87f03f73860247a417a14aaa1ed58, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9e65b0db4e5243bb85c7903b9d68fb94:
+        m_Texture: {fileID: 2800000, guid: 940be582b1f1bc340a4714d18810821b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_6c2bbdb314b74036b2fab235471254df: -0.64
+    m_Colors:
+    - Color_9356d92e6c8f41bfb563d8cc47856256: {r: 0.6745283, g: 0.7753195, b: 1, a: 0.9490196}
+    - Vector2_d1774f6a67a54d608cdf0d510540d1b1: {r: 0, g: 0.28, b: 0, a: 0}
+    - Vector2_d20b202c41324514a20a7ae6fbe4ebf6: {r: 0, g: -0.2, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -10,9 +10,11 @@ public class CatRotation : MonoBehaviour
         if (catModel != null)
         {
             // Set the rotation of the targetObject to (0, 166, 0)
-            catModel.transform.rotation =  Quaternion.Euler(-27.314f, -109.26f, -17.708f);
-            catModel.transform.position = new Vector3(-0.6531f, 0.6575f, 0.781f);
+            catModel.transform.position = new Vector3(0.00234f, 0.709f, 0.8429f);
+            catModel.transform.rotation = Quaternion.Euler(-27.314f, -27.66f, -17.708f);
         }
+           
+            
     }
 
 }

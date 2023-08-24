@@ -14,7 +14,7 @@ public class RomajiDisplayManager : MonoBehaviour
         //currentRomajiCanvas = Instantiate(romajiCanvasPrefab, transform.position, Quaternion.identity);
 
         
-        romajiText = currentRomajiCanvas.transform.Find("RomajiText").GetComponent<TextMeshProUGUI>();
+        romajiText = currentRomajiCanvas.transform.Find("MainPanel/Body/RomajiText").GetComponent<TextMeshProUGUI>();
     }
 
     public TextMeshProUGUI GetRomajiTextComponent()
