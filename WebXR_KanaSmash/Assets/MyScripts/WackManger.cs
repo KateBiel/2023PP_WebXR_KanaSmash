@@ -38,6 +38,10 @@ public class WackManger : MonoBehaviour
     [SerializeField] private TextMeshProUGUI romajiText;
     private GameObject currentRomajiCanvas;
 
+    [Header("KanaAudio")]
+    public AudioSource kanaAudioSource;
+    public List<AudioClip> kanaAudioClip;
+
     private string currentRomajiPrompt;
     private string currentCharacterPrompt;
     public enum GameMode
@@ -99,6 +103,17 @@ public class WackManger : MonoBehaviour
 
         Debug.Log("Button hit: " + hitButton.Character);
         Debug.Log("Expected character: " + currentCharacterPrompt);
+
+        int charIndex = syllabariesData.hiraganaList.IndexOf(hitButton.Character);
+        if (charIndex == -1) // Not found in Hiragana
+        {
+            // Try the Katakana list:
+            charIndex = syllabariesData.katakanaList.IndexOf(hitButton.Character);
+        }
+
+        // Play the sound
+        if (charIndex >= 0 && charIndex < kanaAudioClip.Count) // Safety check
+            kanaAudioSource.PlayOneShot(kanaAudioClip[charIndex]);
 
         if (hitButton.Character == currentCharacterPrompt)
         {
@@ -217,6 +232,8 @@ public class WackManger : MonoBehaviour
         int correctButtonIndex = Random.Range(0, _wackButton.Count);
         _wackButton[correctButtonIndex].Character = character;
         _wackButton[correctButtonIndex].Activate();
+
+    
 
         HashSet<int> activatedIndexes = new HashSet<int> { correctButtonIndex }; // Using HashSet to store unique indices
 

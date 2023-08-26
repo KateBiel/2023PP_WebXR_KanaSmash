@@ -4,6 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "SyllabariesData", menuName = "Japanese/Syllabaries")]
 public class Syllabaries : ScriptableObject
 {
+    
 
     public List<string> romajiList = new List<string> {
     "a", "i", "u", "e", "o",
