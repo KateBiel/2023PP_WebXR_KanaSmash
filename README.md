@@ -5,10 +5,6 @@
 
 KanaSmash is a WebXR educational game I am designing to make practising hiragana and katakana both engaging and fun. This app is not for learning, it is for repetition of basic kana characters. Drawing inspiration from the classic Whac-A-Mole arcade game, players earn points by promptly pressing buttons that match the kana character to the displayed romaji within a set timeframe.
 
-✨ Timeline: In process (Aug 2023)
-
-🎮 Playable Game: An ichio.io page will be added soon 😎
-
 🔴 YouTube Demo: [Unity Progress Aug 23](https://www.youtube.com/watch?v=6UMLpb5jWsA)
 
 🔴 YouTube Demo: [ ShapesXR Initail Design](https://www.youtube.com/watch?v=eC-yCSB9mtI)
@@ -18,9 +14,6 @@ KanaSmash is a WebXR educational game I am designing to make practising hiragana
     - WebXR Export
     - Works on the Oculus Quest; compatibility with other platforms hasn't been tested. 
     - Works on Quest Browser (Oculus Quest) and Google Chrome (Windows); compatibility with other browsers hasn't been tested. 
-
-> [!NOTE]
->This Project is still be in the development stage. Documentation will be uploaded after the project is compleated. 
 
 <div style="border-top: 1.4px solid #3a3c43; margin-top: 50px;"></div>
 
